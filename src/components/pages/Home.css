@@ -34,7 +34,11 @@ body, html {
     color: white;
   }
 
-  .nav 
+  .nav-wrapper{
+    background-color: rgb(228,181,225,0.6);
+    border-radius: 25px;
+  }
+  
 
   .icon-row i{
     /* display:flex; */
@@ -69,7 +73,7 @@ body, html {
   
     #aboutme-wrapper{
       /* background: #ffffff; */
-      color: white;
+      color: #777777;
       width: 100%;
       
     }
@@ -80,7 +84,15 @@ body, html {
        margin-top: 50px; 
     }
   
-  
+    .my-img{
+      border-radius: 50%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+   
+    .photo-row{
+      width:100%;
+    }
     
     .subtitle{
       color: white;
@@ -88,19 +100,19 @@ body, html {
   
     .about-title{
       width:100%;
-      background: white;
+      /* background: white; */
       margin: 0;
-  
+      color: #777777;
+    }
+    .about-Nav{
+      width:100%;
     }
   
-    .aboutme-box{
-      /* margin: 100px 50px 50px 50px; */
-       background-color: white; 
-      /* border: 1px black; */
-      padding: 50px;
-  
+    
+    .about-Nav Navtabs{
+      color: #777777;
     }
-  
+
   
     .aboutme-box p{
       margin-left: 100px;
@@ -125,6 +137,10 @@ body, html {
       /* border-top: 1px solid #777777 ; */
       /* color: #777777; */
       color:#777777;
+    }
+
+    .nav{
+      justify-content: center;;
     }
   
     .content{ 
@@ -241,10 +257,39 @@ body, html {
       border: 1px #777777;
     }
      */ 
+
+     .my-img img{
+        border-radius: 50%;
+      }
+     
   
     h1,h2,h3,h4,h5,h6{
       font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     }
+
+   .about-Nav a:link {
+      color: #777777;;
+      text-decoration: none;
+    }
+    
+    /* visited link */
+   .about-Nav a:visited {
+      color:#777777;
+      text-decoration: none;
+    }
+    
+    /* mouse over link */
+    .about-Nav a:hover {
+      color:  #aa4a85;
+      text-decoration: none;
+    }
+    
+    /* selected link */
+   .about-Nav a:active {
+      color: #777777;
+      text-decoration: none;
+    }
+    
     
     a:link {
       color:white;

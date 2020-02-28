@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 
 function NavTabs() {
   return (
+    <div className="nav-wrapper">
     <ul className="nav">
       <li className="nav-item">
         <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
-          Home
+          Home  
         </Link>
       </li>
       <li className="nav-item">
@@ -14,7 +15,7 @@ function NavTabs() {
           to="/about"
           className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
         >
-          About
+          About 
         </Link>
       </li>
       <li className="nav-item">
@@ -22,7 +23,7 @@ function NavTabs() {
           to="/portfolio"
           className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
         >
-          Blog
+          Portfolio 
         </Link>
       </li>
       <li className="nav-item">
@@ -30,18 +31,19 @@ function NavTabs() {
           to="/contact"
           className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
         >
-          Contact
+          Contact 
         </Link>
       </li>
       {/* <li className="nav-item">
         <Link
-          to="/contact/learn"
-          className={window.location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
+          to="/test"
+          className={window.location.pathname === "/test" ? "nav-link active" : "nav-link"}
         >
-          Learn
+          Test
         </Link>
       </li> */}
     </ul>
+    </div>
   );
 }
 

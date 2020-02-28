@@ -5,7 +5,7 @@ import "../../components/pages/Home.css";
 
 // get our fontawesome imports
 // import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {Col,Row} from "react-bootstrap";
 
 function Home() {
@@ -17,7 +17,7 @@ function Home() {
             {/* <div size="md-12"> */}
                 <div class="container">
 
-                    <div id="aboutme-wrapper">
+                    <div id="home-wrapper">
 
                         <div className="row">
 
@@ -30,7 +30,7 @@ function Home() {
 
                                 {/* <!--End About Me Outer Row--> */}
                                 <div className="row subtitle d-flex justify-content-center">
-                                    <h5>Full Stack Web Developer <span>&#183;</span> Technical Project Manager </h5>
+                                    {/* <h5>Full Stack Web Developer <span>&#183;</span> Technical Project Manager </h5> */}
                                 </div>
                                 <Row className= "d-flex justify-content-center">
                                 <Row className="row icon-row">
@@ -56,6 +56,13 @@ function Home() {
                     </div>
                 </div>
             </div>
+
+
+
+    
+   
+
+
             );
         }
         

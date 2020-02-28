@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 
@@ -18,9 +18,9 @@ function App() {
     <Router>
       <div>
         <Route exact path="/" component={Home} />
-        {/* <Route exact path="/about" component={About} /> */}
-        {/* <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/search" component={Contact} /> */}
+        <Route exact path="/about" component={About} /> 
+        {/* <Route exact path="/portfolio" component={Portfolio} /> */}
+        {/* <Route exact path="/search" component={Contact} /> */}
       </div>
     </Router>
   )
