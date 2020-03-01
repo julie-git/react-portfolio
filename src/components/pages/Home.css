@@ -36,7 +36,7 @@ body, html {
 
   .nav-wrapper{
     background-color: rgb(228,181,225,0.6);
-    border-radius: 25px;
+    border-radius: 15px;
   }
   
 
@@ -51,6 +51,7 @@ body, html {
     /* display:flex;  */
     /* align-content: space-between; */
     width: fit-content;
+    margin-bottom: 50px;
   }
 
     .header-wrapper{
@@ -69,6 +70,10 @@ body, html {
       background: #aa4a85;
       width: 200px;
       color: #ffffff;
+   }
+
+   .about-text{
+     margin-bottom: 250px;
    }
   
     #aboutme-wrapper{
@@ -317,6 +322,24 @@ body, html {
     p{
       color:#777777;
     }
+
+    .carousel-item.active{
+      width: 1700px;
+    height: 700px;
+    align-content: center;
+    } 
+    .carousel-caption{
+      background: white;
+      color: #777777;
+    }
+
+    .carousel-caption i, p, h3{
+      color: #777777;
+    }
+    .carousel-inner{
+      height: 700px;
+    }
+    
   
     /* .with-margin {
       margin-bottom: 20px;

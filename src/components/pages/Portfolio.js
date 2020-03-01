@@ -1,49 +1,92 @@
 import React from "react";
 import NavTabs from "../../components/NavTabs";
-function Home() {
+import "../pages/Home.css";
+import { Col, Row } from "react-bootstrap";
+import Carousel from 'react-bootstrap/Carousel'
+import ReactBootstrapCarousel from "react-bootstrap-carousel";
+import "bootstrap/dist/css/bootstrap.css";
+import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
+import RAD from "../../images/RAD.jpg";
+import Parlor from "../../images/parlorflix.jpg";
+import Pup from "../../images/pupmatch1200_750.jpg";
+import Weather from "../../images/weatherdashboard.jpg";
+
+
+
+function Portfolio() {
     return (
-        <div className="home-container">
+        <div className="port-container">
+            <div id="port-wrapper">
+                <Row>
+
+                    <Row className="about-title jumbotron-4 justify-content-center">
+                        <h1 className="display-4">Portfolio</h1>
+                    </Row>
+
+                    <Carousel>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={RAD}
+                                alt="Handyman R.A.D"
+                            />
+                            <Carousel.Caption>
+                                <h3>Handyman R.A.D</h3>
+                                <p>Application for Scheduling Service Providers and Customers to Schedule Handyman Services</p>
+                                <p>CRUD application in Handlebars, MySQL, Sequilize, HTML, CSS, Heroku</p>
+                                <a href="https://github.com/julie-git"><i class="fab fa-github fa-2x"></i></a>
+                                <a href="https://rad-prototype.herokuapp.com/"><i class="fa fa-external-link fa-2x" aria-hidden="true"></i></a>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={Parlor}
+                                alt="Parlor Flix"
+                            />
+
+                            <Carousel.Caption>
+                                <h3>Parlor Flix</h3>
+                                <p></p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={Pup}
+                                alt="Pup Match"
+                            />
+
+                            <Carousel.Caption>
+                                <h3>Weather Dashboard</h3>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={Weather}
+                                alt="Weather Dashboard"
+                            />
+
+                            <Carousel.Caption>
+                                <h3>Pup Match</h3>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>
 
 
 
-            <div size="md-12">
-                <div class="container">
-
-                    <div id="aboutme-wrapper">
-
-                        <div className="row">
-                            {/* <!--Main Section--> */}
-
-                            {/* <!--About Me Section--> */}
-                            <div className="col-md-col-12 name-title jumbotron-4 d-flex justify-content-center">
-                                <h1 class="display-3">Julie Gran</h1>
-                            </div>
-                        </div>
-                        {/* <!--End About Me Outer Row--> */}
-                        <div className="row subtitle d-flex justify-content-center">
-                            <h5>Full Stack Web Developer <span>&#183;</span> Technical Project Manager </h5>
-                        </div>
-                        <div className="row d-flex justify-content-center icon-row">
-                            {/* <a href="https://github.com/julie-git"><i class="fab fa-github fa-2x"></a></i> */}
-                            <a href="https://www.linkedin.com/in/juliegran/"><i class="fab fa-linkedin fa-2x"></i></a>
-                            <a href="assets/JulieG_Resume_Online.pdf" download> <i class="fas fa-file fa-2x"></i></a>
-                        </div>
-                        <NavTabs />
-                    </div>
-                    {/* <!-- End Main Section --> */}
-
-                    {/* <!-- Begin Footer Row--> */}
-
-                    <div className="row">
-                        <p class="d-flex justify-content-center footer">&copy;Copyright 2020 Julie Gran</p>
-                    </div>
 
 
-                </div>
 
+
+                </Row>
             </div>
-        </div>
-            );
-        }
-        
-export default Home;
+        </div >
+
+    );
+}
+
+export default Portfolio;

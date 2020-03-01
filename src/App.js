@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 // import About from "./omponents/pages/About";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
+import Portfolio from "./components/pages/Portfolio";
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       <div>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} /> 
-        {/* <Route exact path="/portfolio" component={Portfolio} /> */}
+        <Route exact path="/portfolio" component={Portfolio} />
         {/* <Route exact path="/search" component={Contact} /> */}
       </div>
     </Router>
