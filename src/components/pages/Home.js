@@ -39,7 +39,7 @@ function Home() {
                                    <Col size ="xs"> <a href="assets/JulieG_Resume_Online.pdf" download> <i className="fas fa-file fa-2x"></i></a></Col>
                                  </Row>
                                  </Row>
-                                <div className="row justify-content-center nav" >
+                                <div className="row justify-content-center about-Nav" >
                                     <NavTabs />
                                 </div>
                                 {/* </div> */}

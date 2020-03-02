@@ -1,5 +1,30 @@
 body, html {
     height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  /* font-weight: 700; */
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+
+ .form-wrapper button{
+    background:  #e7b2dc;
+    border-radius: 15px;
   }
   .home-container{
     margin: 0 auto;
@@ -146,10 +171,7 @@ body, html {
     }
   
     
-    .about-Nav Navtabs{
-      color: #777777;
-    }
-
+    
   
     .aboutme-box p{
       margin-left: 100px;
@@ -268,17 +290,15 @@ body, html {
       }
      
   
-    h1,h2,h3,h4,h5,h6{
-      font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    }
+    
 
     
   .about-Nav .nav-link a{
     color: #aa4a85;
   }
 
-   .about-Nav a:link {
-      color: #777777;;
+  .nav .about-Nav .nav a:link {
+      color:white;;
       text-decoration: none;
     }
     
@@ -329,7 +349,7 @@ body, html {
     }
 
     .carousel-item.active{
-      width: 1700px;
+      width: 1500px;
     height: 700px;
     align-content: center;
     border: 1px solid #777777;
@@ -343,12 +363,15 @@ body, html {
     .carousel-caption{
       background-color: rgba(255,255,255,0.9);
       color: black;
+      margin-left: 20px;
+      margin-bottom: 20px;
       /* border: .5px solid #777777; */
     }
     
     .carousel.slide{
-        margin-left: 125px;
+        margin-left: 260px;
         margin-bottom: 50px;
+        margin-top: 30px;
 }
     
 

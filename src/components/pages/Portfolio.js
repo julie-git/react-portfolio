@@ -33,8 +33,8 @@ function Portfolio() {
                                 />
 
                                 <Carousel.Caption>
-                                    <h3>Parlor Flix</h3>
-                                    <h5>An interactive app for finding TV shows and movies streaming online </h5>
+                                    <h4>Parlor Flix</h4>
+                                    <h6>An interactive app for finding TV shows and movies streaming online </h6>
                                     <h6>Technology: Server Side APIs OMDB,YouTube, UTelly,HTML,CSS, Materialize, @Keyframes Animation Library</h6>
                                     <a href="https://github.com/tysonvonnbeck/ProjectOne" target="_blank"><i class="fab fa-github"></i></a>
                                     <a href="https://tysonvonnbeck.github.io/ProjectOne/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
@@ -47,8 +47,8 @@ function Portfolio() {
                                     alt="Pup Match"
                                 />
                                 <Carousel.Caption>
-                                    <h3>Pup Match</h3>
-                                    <h5>Fun online quiz for finding your dog breed match</h5>
+                                    <h4>Pup Match</h4>
+                                    <h6>Fun online quiz for finding your dog breed match</h6>
                                     <h6>Technology: React, React Material-UI, React Reveal Animation, Server Side API-DogAPI</h6>
                                     <a href="https://github.com/julie-git/puppy-match" target="_blank"><i class="fab fa-github"></i></a>
                                     <a href="https://puppy-match2020.herokuapp.com/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
@@ -62,8 +62,8 @@ function Portfolio() {
                                 />
 
                                 <Carousel.Caption>
-                                    <h3>Weather Dashboard</h3>
-                                    <h5>Search for weather information for today and the next five days for any city in the World. Save your previous searches</h5>
+                                    <h4>Weather Dashboard</h4>
+                                    <h6>Search for weather information for today and the next five days for any city in the World. Save your previous searches</h6>
                                     <h6>Technology: Server-side API OpenWeather, Bootstrap, Local Storage </h6>
                                     <a href="https://github.com/julie-git/weatherdashboard"  target="_blank"><i class="fab fa-github"></i></a>
                                     <a href="https://julie-git.github.io/weatherdashboard/"  target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
@@ -76,9 +76,9 @@ function Portfolio() {
                                     alt="Handyman R.A.D"
                                 />
                                 <Carousel.Caption>
-                                    <h3>Handyman R.A.D Rapid Automated Dispatch</h3>
-                                    <p>Application for Scheduling Service Providers and Customers to Schedule Handyman Services</p>
-                                    <p>CRUD application in Handlebars, MySQL, Sequilize, HTML, CSS, Heroku</p>
+                                    <h4>Handyman R.A.D Rapid Automated Dispatch</h4>
+                                    <h6>Application for Scheduling Service Providers and Customers to Schedule Handyman Services</h6>
+                                    <h6>CRUD application in Handlebars, MySQL, Sequilize, HTML, CSS, Heroku</h6>
                                     <a href="https://github.com/julie-git/Handyman-RAD" target="_blank"><i class="fab fa-github"></i></a>
                                     <a href="https://rad-prototype.herokuapp.com/"  target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
                                 </Carousel.Caption>
