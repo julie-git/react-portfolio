@@ -1,32 +1,55 @@
 import React from "react";
 import NavTabs from "../../components/NavTabs";
-
-function Home() {
-    return (
-        <div className="contact-container">
-
+import "../pages/Home.css";
+import { Col, Row } from "react-bootstrap";
+import MyForm from "../../components/myform.js";
 
 
-            <div size="md-12">
-                <div class="container">
-
-                    <h1>Contact</h1>
-                        <NavTabs />
-                    
-                    {/* <!-- End Main Section --> */}
-
-                    {/* <!-- Begin Footer Row--> */}
-
-                    <div className="row">
-                        <p class="d-flex justify-content-center footer">&copy;Copyright 2020 Julie Gran</p>
-                    </div>
+function Contact() {
+  return (
+    <div className="contact-container">
 
 
-                </div>
 
-            </div>
-        </div>
-            );
-        }
-        
-export default Home;
+
+      <div id="contact-wrapper">
+        <Row>
+
+
+
+          <Row className="about-title jumbotron-4 justify-content-center">
+            <h1 className="display-4">Contact</h1>
+
+          </Row>
+            
+
+
+
+
+          <Row className="contact-">
+            <Col></Col>
+            <Col xs={10}>
+            <MyForm/>
+            </Col>
+            <Col></Col>
+          </Row>
+
+          <Row className="about-Nav" >
+          <Col></Col>
+          <Col xs={3} className ="justify-content-center">
+            <NavTabs />
+          </Col>
+          <Col></Col>
+          </Row>
+          
+         
+                            
+
+        </Row>
+    </div>
+    </div >
+
+  );
+}
+
+export default Contact;

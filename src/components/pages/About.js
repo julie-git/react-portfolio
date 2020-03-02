@@ -40,7 +40,7 @@ function About() {
             <Col></Col>
           </Row>
 
-          <Row className="row about-Nav" >
+          <Row className="about-Nav" >
           <Col></Col>
           <Col xs={3} className ="justify-content-center">
             <NavTabs />

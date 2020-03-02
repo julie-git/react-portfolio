@@ -15,7 +15,7 @@ function Home() {
 
 
             {/* <div size="md-12"> */}
-                <div class="container">
+                <div className="container">
 
                     <div id="home-wrapper">
 
@@ -34,9 +34,9 @@ function Home() {
                                 </div>
                                 <Row className= "d-flex justify-content-center">
                                 <Row className="row icon-row">
-                                    <Col size="xs"><a href="https://github.com/julie-git"><i class="fab fa-github fa-2x"></i></a></Col>
-                                    <Col size ="xs"><a href="https://www.linkedin.com/in/juliegran/"><i class="fab fa-linkedin fa-2x"></i></a></Col>
-                                   <Col size ="xs"> <a href="assets/JulieG_Resume_Online.pdf" download> <i class="fas fa-file fa-2x"></i></a></Col>
+                                    <Col size="xs"><a href="https://github.com/julie-git"><i className="fab fa-github fa-2x"></i></a></Col>
+                                    <Col size ="xs"><a href="https://www.linkedin.com/in/juliegran/"><i className="fab fa-linkedin fa-2x"></i></a></Col>
+                                   <Col size ="xs"> <a href="assets/JulieG_Resume_Online.pdf" download> <i className="fas fa-file fa-2x"></i></a></Col>
                                  </Row>
                                  </Row>
                                 <div className="row justify-content-center nav" >
@@ -48,7 +48,7 @@ function Home() {
                                 {/* <!-- Begin Footer Row--> */}
 
                                 <div className="row">
-                                    <p class="d-flex justify-content-center footer">&copy;Copyright 2020 Julie Gran</p>
+                                    <p className="d-flex justify-content-center footer">&copy;Copyright 2020 Julie Gran</p>
                                 </div>
                             </div>
                             {/* <div className="col-md-col-2"></div> */}
