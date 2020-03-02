@@ -17,36 +17,40 @@ function Contact() {
 
 
 
-          <Row className="about-title jumbotron-4 justify-content-center">
-            <h1 className="display-4">Contact</h1>
-
-          </Row>
-            
-
-
-
-
-          <Row className="contact-">
-            <Col></Col>
-            <Col xs={10}>
-            <MyForm/>
-            </Col>
-            <Col></Col>
-          </Row>
-
-          <Row className="about-Nav" >
+          <Row className="contact-title jumbotron-4 justify-content-center">
           <Col></Col>
-          <Col xs={3} className ="justify-content-center">
-            <NavTabs />
+          <Col xs={6} className = "title-wrapper">
+            <Row className="justify-content-center">
+            <h1 className="display-4">Contact</h1>
+            </Row>
           </Col>
           <Col></Col>
           </Row>
-          
-         
-                            
 
+          <Row className="contact-wrapper">
+            <Col></Col>
+            <Col xs={6} className="form-wrapper">
+              {/* Insert form component */}
+              <Row className = "justify-content-center">
+              <MyForm />
+              </Row>
+            </Col>
+            <Col></Col>
+          </Row>
         </Row>
-    </div>
+        <Row className="about-Nav" >
+          <Col></Col>
+          <Col xs={6} className="justify-content-center">
+            <NavTabs />
+          </Col>
+          <Col></Col>
+        </Row>
+
+
+
+
+        {/* </Row> */}
+      </div>
     </div >
 
   );

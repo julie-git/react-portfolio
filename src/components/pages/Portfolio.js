@@ -85,12 +85,14 @@ function Portfolio() {
                             </Carousel.Item>
                         </Carousel>
                     </Row>
+                    
                     <Row className="about-Nav port-Nav" >
                         <Col></Col>
                         <Col xs={3} className="justify-content-center">
                             <NavTabs />
                         </Col>
                         <Col></Col>
+                    </Row>
                     </Row>
 {/* 
                     <div className="row">
@@ -109,7 +111,7 @@ function Portfolio() {
                         {/* <Col></Col> */}
                     {/* </Row> */}
                     
-                </Row>
+                {/* </Row> */}
 
 
 

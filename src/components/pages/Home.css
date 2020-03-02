@@ -4,12 +4,44 @@ body, html {
   .home-container{
     margin: 0 auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background: url("../../images//unsplash3.jpg") no-repeat; 
+    background: url("../../images/unsplash3.jpg") no-repeat; 
     background-size: cover; 
     margin: 0 auto;
     height: 100vh; 
   }
+
+  .contact-container{
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url("../../images/desk.jpg") no-repeat; 
+    background-size: cover; 
+    height: 100vh; 
+    background-attachment: fixed;
+  }
   
+  .contact-wrapper{
+    /* background: blue; */
+    width: 100%;
+  }
+
+  .form-wrapper{
+    background:white;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+  }
+
+  .contact-title{
+    width:100%;
+    /* background-color: rgb(228,181,225,0.6); */
+    margin: 0;
+    color: #777777;
+  }
+
+  .title-wrapper{
+    width: 50%;
+    background: white;
+    margin-top: 100px;
+  }
   /* .parallax {
     /* The image used */
     /* background-image: url("../../../public/images/unsplash3.jpg"); */
@@ -73,7 +105,7 @@ body, html {
    }
 
    .about-text{
-     margin-bottom: 250px;
+     margin-bottom: 150px;
    }
   
     #aboutme-wrapper{
@@ -230,13 +262,6 @@ body, html {
         }
   
       
-    .grid{
-      /* display: flex; */
-      flex-wrap: wrap;
-      align-items: center;
-      flex-direction: row;
-      padding-left: 20px;
-       }
     
       /* .grid p{
         position: absolute;
