@@ -40,7 +40,7 @@ function Contact() {
         </Row>
         <Row className="about-Nav" >
           <Col></Col>
-          <Col xs={6} className="justify-content-center">
+          <Col xs={3} className="justify-content-center">
             <NavTabs />
           </Col>
           <Col></Col>
