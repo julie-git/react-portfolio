@@ -1,7 +1,9 @@
 import React from "react";
-
+import Roll from 'react-reveal/Roll';
+import Slide from 'react-reveal/Slide';
 import NavTabs from "../../components/NavTabs";
 import "../../components/pages/Home.css";
+import Resume from "../../assets/JulieG_Resume_Online.pdf";
 
 // get our fontawesome imports
 // import { faHome } from "@fortawesome/free-solid-svg-icons";
@@ -25,7 +27,9 @@ function Home() {
                             <div className="col-12">
 
                                 <div className="row name-title jumbotron-4 justify-content-center">
+                                <Roll left>
                                     <h1 className="display-3">Julie Gran</h1>
+                                </Roll>
                                 </div>
 
                                 {/* <!--End About Me Outer Row--> */}
@@ -36,11 +40,13 @@ function Home() {
                                 <Row className="row icon-row">
                                     <Col size="xs"><a href="https://github.com/julie-git"><i className="fab fa-github fa-2x"></i></a></Col>
                                     <Col size ="xs"><a href="https://www.linkedin.com/in/juliegran/"><i className="fab fa-linkedin fa-2x"></i></a></Col>
-                                   <Col size ="xs"> <a href="assets/JulieG_Resume_Online.pdf" download> <i className="fas fa-file fa-2x"></i></a></Col>
+                                   <Col size ="xs"> <a href={Resume} download> <i className="fas fa-file fa-2x"></i></a></Col>
                                  </Row>
                                  </Row>
                                 <div className="row justify-content-center about-Nav" >
+                                <Slide left>
                                     <NavTabs />
+                                </Slide>
                                 </div>
                                 {/* </div> */}
                                 {/* <!-- End Main Section --> */}

@@ -11,14 +11,14 @@ h1, h2, h3 {
   font-weight: 400;
   font-style: italic;
 }
-
+/* 
 button {
   font-family: 'Montserrat', sans-serif;
   /* font-weight: 700; */
-  font-size: 13px;
+  /* font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 3px;
-}
+} */ 
 
 
 
@@ -210,7 +210,7 @@ button {
       /* background-attachment: fixed; */
       /* padding-bottom: 70px; */
       /* padding-top: 90px; */
-      font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      /* font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
       min-height: 100vh;  
     } 
   
